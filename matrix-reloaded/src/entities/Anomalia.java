@@ -1,6 +1,7 @@
 package entities;
 
 public class Anomalia extends Entidad {
+
     private int nivelSeveridad;
     private String ubicacion;
 
@@ -25,6 +26,8 @@ public class Anomalia extends Entidad {
     public void setUbicacion(String ubicacion) {
         this.ubicacion = ubicacion;
     }
+
+
 
     @Override
     public String toString() {
